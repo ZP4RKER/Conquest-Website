@@ -108,7 +108,7 @@ $(document).ready(function() {
         offset: {
             top: $('.top').height()
         }
-    }); 
+    });
 });
 
 /* Close navbar on click on small devices */
@@ -121,7 +121,7 @@ $(function () {
 /* Bootstrap scrollspy */
 
 $('body').scrollspy({ offset: 64, target: '.navbar' });
- 
+
 
 /* Smooth scroll to # anchors */
 
@@ -139,4 +139,3 @@ $('a[href^="#"]').on('click',function (e) {
     });
 });
 });
-
